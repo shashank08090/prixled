@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+#logoimage{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    display:grid;
+    grid-template-columns: 5% 95%;
+    height: 10vh;
+    width: 100vw;
+    background-color: #2fe9f0;
+}
+
+#logo , #header{
+    
+}
+
+
+#upgrade{
+    float: right;
+    margin-top:1.5rem;
+    margin-right: 5rem;
+    padding: 6px;
+    outline: 3px solid green;
+
+}
+#profile{
+    float: right;
+    margin-top:1rem;
+    margin-right: 4rem;
+
+}
+
+#heading{
+    float: left;
+    margin-top:1.5rem;
+    margin-left: 1rem;
+    padding: 6px;
+    font-weight: 1000;
+    color: aliceblue;
+}
